@@ -10,7 +10,7 @@ import ThemeToggle from "./theme-toggle";
 
 const SiteHeader = () => {
   return (
-    <header className="sticky top-0 border-b bg-background/95 border-border backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 border-b bg-background/95 border-border backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <MainNav />
         <div className="flex flex-1 items-center justify-end space-x-2">
